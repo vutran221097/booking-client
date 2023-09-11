@@ -1,9 +1,5 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import "./App.css";
-import 'react-date-range/dist/styles.css'; // main style file
-import 'react-date-range/dist/theme/default.css'; // theme css file
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import { useSelector } from "react-redux";
 
 import Home from "./pages/home/Home";
@@ -12,15 +8,20 @@ import Search from "./pages/search/Search";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Booking from "./pages/booking/Booking";
-import Transaction from "./pages/transaction/Transaction";
 import Hotel from "./pages/hotel/Hotel";
 import ProtectedRoute from "./constants/ProtectedRoute";
+import Transaction from "./pages/transaction/Transaction";
+
+import "./App.css";
+import "react-date-range/dist/styles.css"; // main style file
+import "react-date-range/dist/theme/default.css"; // theme css file
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  const isLogged = useSelector((state) => state.auth.isLogged)
+  const isLogged = useSelector((state) => state.auth.isLogged);
 
   return (
-    <>
+    <div>
       <ToastContainer />
       <BrowserRouter>
         <Routes>
@@ -34,10 +35,7 @@ function App() {
           <Route
             path="/transaction"
             element={
-              <ProtectedRoute
-                redirectPath="/login"
-                isLogged={isLogged}
-              >
+              <ProtectedRoute redirectPath="/login" isLogged={isLogged}>
                 <Transaction />
               </ProtectedRoute>
             }
@@ -45,8 +43,7 @@ function App() {
           <Route path="*" element={<h1>404 page not found</h1>} />
         </Routes>
       </BrowserRouter>
-    </>
-
+    </div>
   );
 }
 
