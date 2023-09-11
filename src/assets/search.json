@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Tower Street Apartments",
+    "distance": 500,
+    "tag": "Free airport taxi",
+    "type": "Studio Apartment with Air conditioning",
+    "description": "Entire studio • 1 bathroom • 21m² 1 full bed",
+    "free_cancel": true,
+    "price": 112,
+    "rate": 8.9,
+    "rate_text": "Excellent",
+    "image_url": "./images/hotel_search_1.webp"
+  },
+  {
+    "name": "Comfort Suites Airport",
+    "distance": 200,
+    "tag": "Free Breakfast",
+    "type": "Studio Apartment",
+    "description": "Entire studio • 2 bathroom • 100m² 2 full bed",
+    "free_cancel": true,
+    "price": 140,
+    "rate": 9.3,
+    "rate_text": "Exceptional",
+    "image_url": "./images/hotel_search_2.jpg"
+  },
+  {
+    "name": "Four Seasons Hotel",
+    "distance": 100,
+    "tag": "Free parking",
+    "type": "Hotel in Lisbon",
+    "description": "1 bathroom • 51m² 2 full bed",
+    "free_cancel": false,
+    "price": 99,
+    "rate": 8.8,
+    "rate_text": "Excellent",
+    "image_url": "./images/hotel_search_3.jpg"
+  }
+]

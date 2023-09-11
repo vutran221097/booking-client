@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.footer-list {
+  flex: 1;
+}
+
+.footer-list p{
+    line-height: 1.8;
+    color: #003580;
+}

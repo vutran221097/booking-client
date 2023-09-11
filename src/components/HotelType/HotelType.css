@@ -1,0 +1,27 @@
+.hotel-type {
+  margin-bottom: 3rem;
+}
+
+.hotel-type h2 {
+  margin-bottom: 2rem;
+}
+
+.hotel-type-list {
+  display: flex;
+  gap: 3rem;
+}
+
+.hotel-type-item {
+  flex: 1;
+  cursor: pointer;
+}
+
+.hotel-type-item img {
+  width: 100%;
+  height: 200px;
+  border-radius: 1rem;
+}
+
+.hotel-type-item h2 {
+  margin-bottom: 0.5rem;
+}

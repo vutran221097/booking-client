@@ -1,0 +1,12 @@
+.hotel-list-page {
+    margin: 2rem 0;
+}
+
+.hotel-list-page .hotel-list-items {
+    flex-wrap: wrap;
+}
+
+.hotel-list-page .hotel-list-items .hotel-list-item {
+    flex: none;
+    width: 30%;
+}

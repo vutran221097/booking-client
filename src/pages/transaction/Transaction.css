@@ -1,0 +1,65 @@
+.transaction-container {
+    margin: 3rem 0;
+}
+
+.transaction-container h2 {
+    margin-bottom: 2rem;
+}
+
+.transaction-container h1 {
+    text-align: center;
+}
+
+.transaction-table,
+.transaction-table th,
+.transaction-table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+.transaction-table {
+    min-width: 1000px !important;
+    width: 100%;
+}
+
+.transaction-table thead {
+    color: white;
+    background-color: #32A4C1;
+    text-align: left;
+}
+
+.transaction-table tbody {
+    text-align: left;
+}
+
+.transaction-table tbody tr:nth-of-type(odd) {
+    background-color: #F2F2F2;
+}
+
+.transaction-table tbody th {
+    font-weight: 400;
+}
+
+.transaction-items .payment {
+    text-transform: capitalize;
+}
+
+.transaction-items .status {
+    width: fit-content;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    color: #1A8334;
+}
+
+.transaction-items .checkin {
+    background-color: #3AD139;
+}
+
+.transaction-items .checkout {
+    background-color: #D3D0F2;
+}
+
+.transaction-items .booked {
+    background-color: #F69685;
+}

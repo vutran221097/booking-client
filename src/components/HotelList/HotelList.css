@@ -1,0 +1,46 @@
+.hotel-list {
+  margin-bottom: 3rem;
+}
+
+.hotel-list h2 {
+  margin-bottom: 2rem;
+}
+
+.hotel-list-items {
+  display: flex;
+  gap: 3rem;
+}
+
+.hotel-list-item {
+  flex: 1;
+  cursor: pointer;
+}
+
+.hotel-list-item img {
+  width: 100%;
+  height: 250px;
+  border-radius: 1rem;
+}
+
+.hotel-list-item h2 {
+  margin-bottom: 0;
+  text-decoration: underline;
+  color: #551a8b;
+}
+
+.hotel-list-item p,
+.hotel-list-item div {
+  line-height: 2;
+}
+
+.hotel-list-item .price {
+  font-weight: 700;
+}
+.hotel-list-item .type {
+  font-weight: 600;
+}
+.hotel-list-item .rate {
+  color: white;
+  background-color: #003580;
+  padding: 0.3rem;
+}

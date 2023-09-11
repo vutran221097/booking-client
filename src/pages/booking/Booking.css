@@ -1,0 +1,96 @@
+.booking-page {
+    margin: 3rem 0;
+}
+
+.booking-page h2 {
+    margin-bottom: 2rem;
+}
+
+.booking-info {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.booking-dates {
+    flex: 1
+}
+
+.booking-reserve-info {
+    flex: 2
+}
+
+.booking-reserve-info .form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-reserve-info .form-control input {
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+
+.booking-reserve-info .form-control input:focus {
+    outline: none;
+}
+
+.booking-rooms {
+    margin-bottom: 2rem;
+}
+
+.room-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.room-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.selected-room {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.room-status {
+    display: flex;
+    gap: 6px;
+}
+
+.room-check {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+
+.booking-total {
+    display: flex;
+    gap: 3rem;
+}
+
+.booking-payment {
+    padding: 0.5rem;
+    border: 1 solid black;
+    background-color: #EFEFEF;
+}
+
+.booking-payment:focus {
+    outline: none;
+}
+
+.booking-payment-action button {
+    padding: 1rem 1rem;
+    color: white;
+    background-color: #0071c2;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}

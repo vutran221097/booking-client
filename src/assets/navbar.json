@@ -1,0 +1,27 @@
+[
+  {
+    "type": "Stays",
+    "icon": "bed",
+    "path": "/"
+  },
+  {
+    "type": "Flights",
+    "icon": "plane",
+    "path": "/"
+  },
+  {
+    "type": "Car Rentals",
+    "icon": "car",
+    "path": "/"
+  },
+  {
+    "type": "Attractions",
+    "icon": "bed",
+    "path": "/"
+  },
+  {
+    "type": "Airport taxis",
+    "icon": "taxi",
+    "path": "/"
+  }
+]

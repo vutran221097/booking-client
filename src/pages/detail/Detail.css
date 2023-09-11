@@ -1,0 +1,92 @@
+.detail-page-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.detail-page-header button,
+.detail-page-footer button {
+  padding: 1rem 1rem;
+  color: white;
+  background-color: #0071c2;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.detail-page-header p {
+  line-height: 2;
+}
+
+.detail-page-address {
+  font-size: 14px;
+}
+
+.detail-page-distance {
+  color: #0071c2;
+  font-weight: 600;
+}
+
+.detail-page-price-tag {
+  color: #01800a;
+  font-weight: 600;
+}
+
+.detail-page-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.detail-page-body img {
+  width: 33%;
+  margin-bottom: 0.5rem;
+}
+
+.detail-page-footer {
+  display: flex;
+  margin: 3rem 0;
+}
+
+.detail-page-information {
+  flex: 3;
+}
+
+.detail-page-offer {
+  flex: 1;
+}
+
+.detail-page-information h2 {
+  margin-bottom: 1.5rem;
+}
+
+.detail-page-information p {
+  padding-right: 5rem;
+}
+
+.detail-page-offer {
+  padding: 1rem;
+  background-color: #ebf3ff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.detail-page-offer h2 {
+  color: #555555;
+}
+
+.detail-page-offer-price {
+  font-size: 2rem;
+}
+
+.detail-page-offer-price span {
+  font-weight: bold;
+}
+
+.detail-page-footer button {
+  width: 100%;
+  cursor: pointer;
+}

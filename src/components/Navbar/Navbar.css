@@ -1,0 +1,58 @@
+.navbar {
+  background-color: #003580;
+  height: 7rem;
+  padding-top: 1rem;
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-header p {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar-login {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar-login button {
+  color: #003580;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-login p {
+  font-size: 16px;
+}
+
+.navbar-items {
+  list-style: none;
+  display: flex;
+  margin-top: 2rem;
+  padding: 0;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.navbar-item {
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.navbar-icon {
+  margin-right: 5px;
+}
+
+.navbar-item.active {
+  border: 1px solid white;
+  border-radius: 3rem;
+}

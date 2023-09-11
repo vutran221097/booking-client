@@ -1,0 +1,76 @@
+.search-popup {
+  background-color: #febb01;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+
+.search-popup h2 {
+  margin-bottom: 0.4rem;
+}
+
+.popup-destination,
+.popup-check-in-date {
+  margin-bottom: 0.6rem;
+}
+
+.search-popup .label {
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.popup-destination {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.popup-options p {
+  font-size: 12px;
+  padding-left: 0.4rem;
+  color: #7d6845;
+}
+
+.popup-options input {
+  width: 20%;
+}
+
+.popup-search-button button {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  color: white;
+  background-color: #0071c2;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.popup-destination input,
+.popup-check-in-date input {
+  padding: 0.6rem 0rem;
+  border: none;
+  outline: none;
+  width: 100%;
+  text-indent: 1rem;
+}
+
+.popup-date-range {
+  position: relative;
+}
+
+.popup-date-range .date-range-picker {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 2.5rem;
+  color: black;
+}
+
+/* Remove colum date of past react date range */
+.rdrDefinedRangesWrapper {
+  display: none;
+}

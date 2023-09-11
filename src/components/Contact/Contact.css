@@ -1,0 +1,39 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #003580;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0 3rem 0;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.contact h1 {
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  margin-bottom: 2rem;
+}
+
+.contact-submit button {
+  padding: 1rem 1rem;
+  color: white;
+  background-color: #0071c2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-submit input {
+  padding: 1rem 1rem;
+  width: 300px;
+  margin-right: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-submit input:focus {
+  outline: none;
+}
